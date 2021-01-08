@@ -35,6 +35,7 @@
 	// the record.  Write an error message to the screen.
 	if(isEmail == false){
 		gs.addErrorMessage(current.requested_for_email + " is not a valid email address.  You must provide a valid email address.");
+        gs.addErrorMessage(current.requested_for_email + " no es valido.  Escribe un correo valido.");
 		current.setAbortAction(true);
 	}
 
